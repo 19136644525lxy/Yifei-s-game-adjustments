@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FNF",
+    "NAN",
+    "FNF"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:blaze_rod"
+    },
+    "N": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "A": {
+      "item": "minecraft:golden_apple"
+    }
+  },
+  "result": {
+    "item": "minecraft:experience_bottle",
+    "count": 32
+  }
+}

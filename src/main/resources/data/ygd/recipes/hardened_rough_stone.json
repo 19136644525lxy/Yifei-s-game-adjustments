@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DBD",
+    "BAB",
+    "DBD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "B": {
+      "item": "minecraft:bedrock"
+    },
+    "A": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "result": {
+    "item": "ygd:hardened_rough_stone"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDC",
+    " SD",
+    " S "
+  ],
+  "key": {
+    "D": {
+      "item": "ygd:hardened_rough_stone"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "minecraft:bedrock"
+    }
+  },
+  "result": {
+    "item": "ygd:hardened_rough_stone_hoe"
+  }
+}

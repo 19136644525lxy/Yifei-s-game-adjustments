@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DPD",
+    "DRD",
+    "DDD"
+  ],
+  "key": {
+    "P": {
+      "item": "ygd:hardened_template"
+    },
+    "D": {
+      "item": "minecraft:dragon_breath"
+    },
+    "R": {
+      "item": "minecraft:bedrock"
+    }
+  },
+  "result": {
+    "item": "ygd:hardened_template",
+    "count": 2
+  }
+}

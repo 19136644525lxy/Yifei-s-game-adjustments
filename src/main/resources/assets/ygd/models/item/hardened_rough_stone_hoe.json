@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "ygd:item/hardened_rough_stone_hoe"
+  }
+}

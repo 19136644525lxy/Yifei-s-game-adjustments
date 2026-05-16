@@ -1,0 +1,93 @@
+﻿# Yifei's Game Adjustments (YGD) 模组介绍
+
+## 功能概述
+
+YGD 是一个为 Minecraft 原版游戏提供优化和功能增强的模组，旨在提升游戏体验。
+
+## 主要功能
+
+### 1. 通用配置
+- **蛋糕功能**：允许使用空手或铲子破坏完整蛋糕时掉落蛋糕物品
+- **物品信息显示**：在物品 tooltip 中显示详细信息，包括：
+  - 耐久度
+  - 挖掘等级
+  - 武器属性
+  - 防具属性
+  - 可自定义耐久度颜色方案
+- **甘蔗功能**：允许使用骨粉加速甘蔗生长，可设置最大生长高度
+- **信息显示**：在游戏界面显示实时信息，包括：
+  - FPS
+  - TPS
+  - 方向
+  - 群系
+  - 现实时间
+- **缩放功能**：提供平滑的视角缩放功能，支持：
+  - 可调节的初始缩放级别
+  - 线性步进模式
+  - 自定义过渡时间
+  - 滚动缩放
+  - 多种过渡效果
+
+### 2. 扫地系统（扫地娘）
+- **自动清理**：定期清理游戏世界中的实体，包括：
+  - 物品
+  - 生物（动物和怪物）
+  - 经验球
+  - 下落方块
+  - 箭头和三叉戟
+  - 其他投射物
+- **可配置性**：
+  - 扫地周期（分钟）
+  - 提前通知时间（秒）
+  - 倒计时时间（秒）
+  - 自定义通知消息
+  - 物品和生物的白名单/黑名单
+
+## 命令系统
+
+模组提供了丰富的命令系统，可通过 `/ygd` 命令访问：
+
+- `/ygd cake drop <true|false>` - 启用/禁用蛋糕掉落
+- `/ygd item <durability|mininglevel|weaponstats|armorstats> <true|false>` - 启用/禁用物品信息显示
+- `/ygd item durabilitycolor <vanilla|bright|pastel|monochrome>` - 设置耐久度颜色方案
+- `/ygd sugarcane bonemeal <true|false>` - 启用/禁用甘蔗骨粉催熟
+- `/ygd sugarcane height <1-256>` - 设置甘蔗高度限制
+- `/ygd info <enable|fps|tps|direction|biome|realtime> <true|false>` - 启用/禁用信息显示选项
+- `/ygd info interval <1-30>` - 设置信息更新间隔
+- `/ygd zoom <subcommand>` - 缩放相关设置
+- `/ygd sweep <subcommand>` - 扫地系统设置
+- `/ygd reload` - 重新加载配置
+- `/ygd status` - 显示当前配置状态
+
+- `/ygd help` - 显示帮助信息
+
+## 配置界面
+
+模组通过 ModMenu 提供了友好的配置界面，可通过以下方式访问：
+1. 主菜单 -> 模组
+2. 游戏中按 ESC -> 模组
+
+在配置界面中，你可以：
+- 调整所有功能的设置
+- 查看当前配置状态
+- 快速切换功能开关
+
+## 兼容性
+
+- Minecraft 版本：1.20.1
+- 依赖：
+  - Fabric API
+  - Cloth Config
+  - Mod Menu
+
+## 作者
+
+- 作者：Yifei
+- 版本：0.1.0
+- 许可证：QSUP License
+
+## 反馈与支持
+
+如果您在使用过程中遇到问题或有任何建议，请在模组发布页面留言或联系作者。
+
+感谢您使用 YGD 模组！

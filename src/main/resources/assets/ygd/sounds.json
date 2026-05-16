@@ -1,0 +1,10 @@
+{
+  "zhendao": {
+    "sounds": [
+      {
+        "name": "ygd:zhendao",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "SCS",
+    " C "
+  ],
+  "key": {
+    "D": {
+      "item": "ygd:hardened_rough_stone"
+    },
+    "S": {
+      "item": "minecraft:bedrock"
+    },
+    "C": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ygd:hardened_rough_stone_pickaxe"
+  }
+}
